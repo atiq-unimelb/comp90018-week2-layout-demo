@@ -51,7 +51,7 @@ public class ListDemoAdapter extends ArrayAdapter<Fruit> {
 //        view.setOnClickListener(new View.OnClickListener() {
 //            @Override
 //            public void onClick(View view) {
-//                Toast.makeText(getContext(), fruit.getFruitName(), Toast.LENGTH_SHORT).show();
+//                Toast.makeText(getContext(), ((ViewHolder) view.getTag()).text.getText(), Toast.LENGTH_SHORT).show();
 //            }
 //        });
 
